@@ -1,0 +1,3 @@
+[submodule "pySBOLRunner"]
+	path = pySBOLRunner
+	url = https://github.com/mehersam/pySBOLRunner.git
