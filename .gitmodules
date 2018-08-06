@@ -4,3 +4,6 @@
 [submodule "sboljsRunner"]
 	path = sboljsRunner
 	url = https://github.com/mehersam/sboljsRunner.git
+[submodule "SynBioHubRunner"]
+	path = SynBioHubRunner
+	url = https://github.com/mehersam/SynBioHubRunner.git
