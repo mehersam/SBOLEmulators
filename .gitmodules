@@ -1,3 +1,6 @@
 [submodule "pySBOLRunner"]
 	path = pySBOLRunner
 	url = https://github.com/mehersam/pySBOLRunner.git
+[submodule "sboljsRunner"]
+	path = sboljsRunner
+	url = https://github.com/mehersam/sboljsRunner.git
