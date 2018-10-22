@@ -17,18 +17,6 @@ Retrieving SBOL Test Runners
 git submodule update --init --recursive
 ```
 
-### Compiling and Packaging each Test Runner 
-
-1. [Setup](http://maven.apache.org/download.cgi) Apache Maven. A tutorial on using Apache Maven is provided [here](http://maven.apache.org/guides/getting-started/index.html).
-
-2. In the command line, change to the directory of the runner needed (e.g. ```cd /path/to/libSBOLjRunner```) and execute the following command
-
-```
-mvn package
-```
-
-This will compile the libSBOLjRunner source files, package the compiled source into a libSBOLjRunner JAR file (```libSBOLjRunner-<version>-SNAPSHOT-withDependencies.jar```), and place the JAR file into the ```core2/target``` sub-directory. 
-
 Submitting a SBOL Test Runner
 =============================
 
