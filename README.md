@@ -28,3 +28,16 @@ mvn package
 ```
 
 This will compile the libSBOLjRunner source files, package the compiled source into a libSBOLjRunner JAR file (```libSBOLjRunner-<version>-SNAPSHOT-withDependencies.jar```), and place the JAR file into the ```core2/target``` sub-directory. 
+
+Submitting a SBOL Test Runner
+=============================
+
+To submit a SBOL Test Runner, the application must be compatible to run with the SBOLTestRunner. 
+
+1. The test runner application must be executable from the commandline
+2. If the application follows a simple round-trip test, two commandline arguments are required : an SBOL input file and a file path for the retrieved file 
+3. If the application follows a complex round-trip test, three commandline arguments are required : an SBOL input file, a file path for the retrieved file, and a file path for the emulated file. 
+4. A thorough README explaining how to run the tester application from the commandline is required. If there are additional commandline arguments to be passed to the application, please explain in the README. 
+5. [Fork](https://help.github.com/articles/fork-a-repo/) this repository.  
+6. Test the application using the [SBOLTestRunner](https://github.com/mehersam/SBOLTestRunner) tool.  
+7. If the application is compatible with the SBOLTestRunner, submit a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). 
